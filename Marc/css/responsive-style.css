@@ -1,0 +1,1241 @@
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 5 & 5S in portrait                                                                               */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (orientation: portrait) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+		
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		border-bottom: #000 0px solid;
+		height: 10em;
+	}
+
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0 0 0 14em;
+		text-align: left;
+	} 
+	
+	nav ul {
+		/*display: none;*/
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0;
+	}
+
+	nav ul li a {
+		color: #737170;
+		font-size: 0.8em;
+		font-weight: 400;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+
+	nav ul li a:hover {
+		color: #aaabad;
+	}
+
+	nav ul li.current a {
+		color: #aaabad;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	#hero {
+		background: transparent url(../images/hero.jpg) no-repeat;
+		background-position: top center;
+		background-size: contain;
+		border-bottom: 0px solid #99d15e;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+		height: 200px;
+		margin: -50px 0 0 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hero .inner {
+		margin: 0;
+		padding: 163px 0 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container a {
+		background-color: #eee;
+		border-bottom: 1px solid #333333;
+		border-left: 1px solid #ccc;
+		border-radius: 3px;
+		border-right: 1px solid #333;
+		border-top: 1px solid #ccc;
+		color: #333;
+		font: bold 10px Arial;
+		padding: 0.65em .90em;
+		text-decoration: none;
+		text-transform: uppercase;
+  }
+
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header h1, 
+	#hero .inner .hero-container .hero-header h2 {
+		display: none;
+		font-weight: 700;
+		line-height: 1;
+		margin: -50px 0 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+
+	#hero .inner .hero-container .hero-header h1 {
+		color: #00103f;
+		font-size: 53px;
+	}
+
+	#hero .inner .hero-container .hero-header h2 {
+		color: #001a66;
+		font-size: 80px;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+
+	#featured .featured-container .column .column-item .econ-icon {
+  	font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .agri-icon {
+  	font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;	
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  issues home                                                              */
+	/* ------------------------------------------------------------------------- */
+		
+	#issues-home .issues-container .single-issues-container {
+		width: 100%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  shop                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	#my-store-11521140 {
+		padding: 4% 6% 30%;
+	}
+		
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0 8em;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+  	font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+				
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+
+	footer {
+		height: 250px;
+	}
+
+	#footer-left, #footer-right {
+		background-color: #383838;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#footer-left {
+		float: none;
+		text-align: center;
+	}
+
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 24px 0 38px;
+		width: 12.65em;
+	}
+
+	#footer-left .footer-logo.right {
+		float: none;
+	}
+	
+	#footer-left .social {
+		display: inline;
+		font-family: ss-social-regular;
+		font-size: 1.11em;
+		padding: 1.4em 0 0;
+		text-transform: uppercase;
+		width: 44.29%;
+  }
+
+	#footer-left .social ul li a {
+		padding: 0 1em 0 0;
+	}
+
+	#footer-left .copyright {
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+
+	#footer-right {
+		display: none;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 5 & 5S in landscape                                                                              */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (orientation: landscape) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+	
+	.issues-home-wrap {
+		width: 90%;
+	}
+	
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		border-bottom: #000 0px solid;
+		height: 10em;
+	}
+
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0 0 0 14em;
+		text-align: left;
+	} 
+	
+	nav ul {
+		/*display: none;*/
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0;
+	}
+
+	nav ul li a {
+		color: #737170;
+		font-size: 0.8em;
+		font-weight: 400;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+
+	nav ul li a:hover {
+		color: #aaabad;
+	}
+
+	nav ul li.current a {
+		color: #aaabad;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	#hero {
+		background: transparent url(../images/hero.jpg) no-repeat;
+		background-position: top center;
+		background-size: contain;
+		border-bottom: 0px solid #99d15e;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+		height: 200px;
+		margin: -50px 0 0 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hero .inner {
+		margin: 0;
+		padding: 163px 0 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container a {
+		background-color: #eee;
+		border-bottom: 1px solid #333333;
+		border-left: 1px solid #ccc;
+		border-radius: 3px;
+		border-right: 1px solid #333;
+		border-top: 1px solid #ccc;
+		color: #333;
+		font: bold 10px Arial;
+		padding: 0.65em .90em;
+		text-decoration: none;
+		text-transform: uppercase;
+  }
+
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header h1, 
+	#hero .inner .hero-container .hero-header h2 {
+		display: none;
+		font-weight: 700;
+		line-height: 1;
+		margin: -50px 0 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+
+	#hero .inner .hero-container .hero-header h1 {
+		color: #00103f;
+		font-size: 53px;
+	}
+
+	#hero .inner .hero-container .hero-header h2 {
+		color: #001a66;
+		font-size: 80px;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+
+	#featured .featured-container .column .column-item .econ-icon {
+  	font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .agri-icon {
+  	font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;	
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 0.715em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  issues home                                                              */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container .single-issues-container {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 49%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(6), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(4), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(6), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+		
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0 8em;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+  	font-size: 2.15em;
+	}
+				
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+
+	footer {
+		height: 250px;
+	}
+
+	#footer-left, #footer-right {
+		background-color: #383838;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#footer-left {
+		float: none;
+		text-align: center;
+	}
+
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 24px 0 38px;
+		width: 12.65em;
+	}
+
+	#footer-left .footer-logo.right {
+		float: none;
+	}
+	
+	#footer-left .social {
+		display: inline;
+		font-family: ss-social-regular;
+		font-size: 1.11em;
+		padding: 1.4em 0 0;
+		text-transform: uppercase;
+		width: 44.29%;
+  }
+
+	#footer-left .social ul li a {
+		padding: 0 1em 0 0;
+	}
+
+	#footer-left .copyright {
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+
+	#footer-right {
+		display: none;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 6 & 6S in portrait                                                                               */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: portrait) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+		
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		border-bottom: #000 0px solid;
+		height: 10em;
+	}
+
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0 0 0 17em;
+		text-align: left;
+	} 
+	
+	nav ul {
+		/*display: none;*/
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0;
+	}
+
+	nav ul li a {
+		color: #737170;
+		font-size: 0.8em;
+		font-weight: 400;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+
+	nav ul li a:hover {
+		color: #aaabad;
+	}
+
+	nav ul li.current a {
+		color: #aaabad;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	#hero {
+		background: transparent url(../images/hero.jpg) no-repeat;
+		background-position: top center;
+		background-size: contain;
+		border-bottom: 0px solid #99d15e;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+		height: 200px;
+		margin: -50px 0 0 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hero .inner {
+		margin: 0;
+		padding: 163px 0 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container a {
+		background-color: #eee;
+		border-bottom: 1px solid #333333;
+		border-left: 1px solid #ccc;
+		border-radius: 3px;
+		border-right: 1px solid #333;
+		border-top: 1px solid #ccc;
+		color: #333;
+		font: bold 10px Arial;
+		padding: 0.65em .90em;
+		text-decoration: none;
+		text-transform: uppercase;
+  }
+
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header h1, 
+	#hero .inner .hero-container .hero-header h2 {
+		display: none;
+		font-weight: 700;
+		line-height: 1;
+		margin: -50px 0 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+
+	#hero .inner .hero-container .hero-header h1 {
+		color: #00103f;
+		font-size: 53px;
+	}
+
+	#hero .inner .hero-container .hero-header h2 {
+		color: #001a66;
+		font-size: 80px;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+
+	#featured .featured-container .column .column-item .econ-icon {
+  	font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .agri-icon {
+  	font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;	
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  issues home                                                              */
+	/* ------------------------------------------------------------------------- */
+		
+	#issues-home .issues-container .single-issues-container {
+		width: 100%;
+	}
+		
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0 8em;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+  	font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+				
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+
+	footer {
+		height: 250px;
+	}
+
+	#footer-left, #footer-right {
+		background-color: #383838;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#footer-left {
+		float: none;
+		text-align: center;
+	}
+
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 24px 0 38px;
+		width: 12.65em;
+	}
+
+	#footer-left .footer-logo.right {
+		float: none;
+	}
+	
+	#footer-left .social {
+		display: inline;
+		font-family: ss-social-regular;
+		font-size: 1.11em;
+		padding: 1.4em 0 0;
+		text-transform: uppercase;
+		width: 44.29%;
+  }
+
+	#footer-left .social ul li a {
+		padding: 0 1em 0 0;
+	}
+
+	#footer-left .copyright {
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+
+	#footer-right {
+		display: none;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 6 & 6S in landscape                                                                              */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: landscape) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+	
+	.issues-home-wrap {
+		width: 90%;
+	}
+	
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		border-bottom: #000 0px solid;
+		height: 10em;
+	}
+
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0 0 0 31em;
+		text-align: left;
+	} 
+	
+	nav ul {
+		/*display: none;*/
+	}
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0;
+	}
+
+	nav ul li a {
+		color: #737170;
+		font-size: 0.8em;
+		font-weight: 400;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+
+	nav ul li a:hover {
+		color: #aaabad;
+	}
+
+	nav ul li.current a {
+		color: #aaabad;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	#hero {
+		background: transparent url(../images/hero.jpg) no-repeat;
+		background-position: top center;
+		background-size: contain;
+		border-bottom: 0px solid #99d15e;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+		height: 200px;
+		margin: -50px 0 0 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#hero .inner {
+		margin: 0;
+		padding: 163px 0 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container a {
+		background-color: #eee;
+		border-bottom: 1px solid #333333;
+		border-left: 1px solid #ccc;
+		border-radius: 3px;
+		border-right: 1px solid #333;
+		border-top: 1px solid #ccc;
+		color: #333;
+		font: bold 10px Arial;
+		padding: 0.65em .90em;
+		text-decoration: none;
+		text-transform: uppercase;
+  }
+
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header h1, 
+	#hero .inner .hero-container .hero-header h2 {
+		display: none;
+		font-weight: 700;
+		line-height: 1;
+		margin: -50px 0 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+
+	#hero .inner .hero-container .hero-header h1 {
+		color: #00103f;
+		font-size: 53px;
+	}
+
+	#hero .inner .hero-container .hero-header h2 {
+		color: #001a66;
+		font-size: 80px;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+
+	#featured .featured-container .column .column-item .econ-icon {
+  	font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .agri-icon {
+  	font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;	
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 0.715em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  issues home                                                              */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container .single-issues-container {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 49%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(6), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(4), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(6), 
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+		
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0 8em;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+  	font-size: 2.15em;
+	}
+				
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+
+	footer {
+		height: 250px;
+	}
+
+	#footer-left, #footer-right {
+		background-color: #383838;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#footer-left {
+		float: none;
+		text-align: center;
+	}
+
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 24px 0 38px;
+		width: 12.65em;
+	}
+
+	#footer-left .footer-logo.right {
+		float: none;
+	}
+	
+	#footer-left .social {
+		display: inline;
+		font-family: ss-social-regular;
+		font-size: 1.11em;
+		padding: 1.4em 0 0;
+		text-transform: uppercase;
+		width: 44.29%;
+  }
+
+	#footer-left .social ul li a {
+		padding: 0 1em 0 0;
+	}
+
+	#footer-left .copyright {
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+
+	#footer-right {
+		display: none;
+	}
+
+}
